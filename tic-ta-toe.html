@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet"
+        href="tic-ta-toe.css">
+    </head>
+    <body>
+        <h1><center>Tic-Ta-Toe Game</center></h1>
+        <div class="center">
+            <div>
+                <button class="child1 child i0j0"></button>
+                <button class="child2 child i0j1"></button>
+                <button class="child3 child i0j2"></button>
+            </div>
+    
+            <div>
+                <button class="child4 child i1j0"></button>
+                <button class="child5 child i1j1" ></button>
+                <button class="child6 child i1j2"></button>
+            </div>
+    
+            <div>
+                <button class="child7 child i2j0"></button>
+                <button class="child8 child i2j1"></button>
+                <button class="child9 child i2j2"></button>
+
+                <button onclick="
+                    refresh();                    
+                    startGame(boardGame);                    
+                " class="refresh">Refresh</button>
+
+                <button onclick="
+                    startGame(boardGame);
+                " class="start">Start</button>
+                
+            </div>
+
+            <div class="text">
+                <p class="mid"></p>
+            </div>
+        </div>
+    </body>
+
+    <script src="tic-ta-toe.js"></script>
+</html>
